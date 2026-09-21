@@ -4,8 +4,8 @@ The open part of [slapclub.fun](https://slapclub.fun): everything that touches t
 The game client itself is closed source; the token is not.
 
 - **Game:** slap five egos in your browser. Free, no wallet, no download.
-- **Token:** `$SLAP` on Solana (Token-2022). Contract address is published only by
-  [@slapclubfun](https://x.com/slapclubfun) and on slapclub.fun. Never trust one from a DM.
+- **Token:** `$SLAP` on Solana, launched on pump.fun. Contract: `G5jX2cKsW6dNLQNiar8Tv5LWmQVgWWx2KGVS16vGpump`.
+  It is published only by [@beta_cyborg](https://x.com/beta_cyborg) and on slapclub.fun. Never trust one from a DM.
 - **Builder:** [@beta_cyborg](https://x.com/beta_cyborg).
 
 ## What is in here
@@ -33,6 +33,6 @@ node pool.mjs create --cluster mainnet --mint <mint> --amount 900000000 --price 
 
 - The contract address is a build-time constant on the site, never fetched from an API.
 - Nobody depicted in the game endorses anything. The token is a meme with no promise of any return.
-- Liquidity in the launch pool cannot be withdrawn by anyone, ever. Trading fees from the locked position remain claimable by the pool creator, which is how the club is funded.
+- The live token sits on pump.fun's bonding curve; see `LAUNCH.md`. The Meteora tooling here locks liquidity for good and keeps fees claimable, and is published as the self-hosted alternative.
 
 MIT licensed. Use it for your own launch if you like; keep the egos.
