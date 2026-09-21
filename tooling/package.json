@@ -1,0 +1,19 @@
+{
+  "name": "slap-token-tooling",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@meteora-ag/cp-amm-sdk": "^1.4.9",
+    "@solana/spl-token": "^0.4.15",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.99.0"
+  },
+  "type": "module",
+  "private": true
+}
